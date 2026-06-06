@@ -1,0 +1,14 @@
+============================================================
+  加州房价预测 - 模型性能报告
+============================================================
+
+使用特征: ['MedInc', 'HouseAge', 'AveRooms', 'AveBedrms', 'Population', 'AveOccup', 'Latitude', 'Longitude', 'RoomsPerPerson', 'BedroomRatio', 'IncomeAge']
+
+模型                              RMSE        MAE         R²
+------------------------------------------------------------
+Linear Regression             0.4669     0.3723     0.8353
+Ridge                         0.4669     0.3723     0.8353
+Random Forest                 0.4788     0.3804     0.8268
+Gradient Boosting             0.4664     0.3714     0.8357
+
+最优模型（R²最高）: Gradient Boosting  R²=0.8357
